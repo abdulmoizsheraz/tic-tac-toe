@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: aqua;
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    color: rgb(240, 98, 98);
+    font-family:cursive;
+    font-size:4vw;
+  
+}
+.container-head{
+    margin-top: 13vh;
+    display: grid;
+    grid-template-columns:repeat(3,10vw);
+    grid-template-rows:repeat(3,10vw);
+    justify-content: center;
+}
+.boxtext{
+  border: 2px solid black;
+  padding: 23px;
+  cursor: pointer;
+  font-size: 6vw;
+  font-family: monospace;
+  
+}
+.boxtext:hover{
+background-color: rgb(211, 240, 230);
+  
+}
+.b-r{
+border-right: 0;
+}
+.b-l{
+border-left: 0;
+}
+.b-t{
+    border-top: 0; 
+}
+.b-b{
+    border-bottom: 0; 
+}
+.second{
+    margin-top: 23px;
+ display: flex;
+ justify-content: center;
+align-items: center;    
+}
+.secondary{
+display: flex;
+align-items: center;
+    width: 500px;
+    border-style: double;
+border-color: red;
+
+    
+
+}
+#btn{
+    margin: 23px 34px;
+    padding: 12px 27px;
+    background: red;
+    font-family: cursive;
+    border-radius: 23px;
+}
+#btn:hover{
+  opacity: .7;
+  color: black;
+}
+.Won{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.gif{
+    display: none;
+}
