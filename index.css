@@ -81,3 +81,15 @@ border-color: red;
 .gif{
     display: none;
 }
+ /* Repnosive */
+ @media only screen and (max-width: 432px) {
+    .boxtext {
+       
+        padding: 4px;
+        
+    }
+    .head{
+     
+        font-size: 7vw;
+    }
+  }
