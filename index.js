@@ -52,6 +52,10 @@ function DecideWinner() {
         document.querySelector('.Won').innerText= "So the Winner is "+e[2].innerText
         document.querySelector('.gif').style.display="block"
     }
+    else if((e[1].innerText==e[4].innerText)&&(e[4].innerText==e[7].innerText) && (e[1].innerText!="" )){
+        document.querySelector('.Won').innerText= "So the Winner is "+e[1].innerText
+        document.querySelector('.gif').style.display="block"
+    }
    
 
     
